@@ -22,10 +22,8 @@
     <section id="api">
         <h2>API Overview</h2>
         <p>The platform provides a JSON API for retrieving stream status and user data.</p>
-        
         <h3>Get Stream by Username</h3>
         <code>GET /api/streams/user/:username</code>
-
         <h3>Get VODs by Username</h3>
         <code>GET /api/vods?username=:username&limit=:limit</code>
     </section>
